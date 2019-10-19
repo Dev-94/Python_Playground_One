@@ -43,3 +43,7 @@ print(newMean)
 
 keys = names_grades.keys()
 print(keys)
+
+
+monday_temperatures = (1, 4, 5)
+print(monday_temperatures)
