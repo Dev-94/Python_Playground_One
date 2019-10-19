@@ -28,3 +28,9 @@ range_step = list(range(1, 10, 3))
 print(student_grades)
 print(grade_range)
 print(range_step)
+
+
+mySum = sum(student_grades)
+length = len(student_grades)
+mean = mySum / length
+print(mean)
