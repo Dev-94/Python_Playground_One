@@ -29,8 +29,17 @@ print(student_grades)
 print(grade_range)
 print(range_step)
 
-
 mySum = sum(student_grades)
 length = len(student_grades)
 mean = mySum / length
 print(mean)
+
+names_grades = {"Mary": 9.1, "Sim": 8.8, "John": 7.5}
+
+newSum = sum(names_grades.values())
+newLength = len(names_grades)
+newMean = newSum / newLength
+print(newMean)
+
+keys = names_grades.keys()
+print(keys)
