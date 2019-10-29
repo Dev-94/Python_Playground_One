@@ -51,8 +51,11 @@ print(monday_temperatures)
 
 
 def mean(mylist):
+    print("Function started!")
     the_mean = sum(mylist) / len(mylist)
+    print("Function is running. Answer is:")
     return the_mean
+    print("Function has run! This will not run.")
 
 
 print(mean([1, 4, 6]))
