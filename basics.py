@@ -45,6 +45,6 @@ keys = names_grades.keys()
 print(keys)
 
 
-monday_temperatures = (9.1, 8.8, 7.5)
+monday_temperatures = ['hello', 1, 2, 3]
 
 print(monday_temperatures)
