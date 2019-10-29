@@ -45,18 +45,20 @@ keys = names_grades.keys()
 print(keys)
 
 
-monday_temperatures = ['hello', 1, 2, 3]
+monday_temperatures = [8.8, 9.1, 9.9]
 
 print(monday_temperatures)
 
 
-def mean(mylist):
-    print("Function started!")
-    the_mean = sum(mylist) / len(mylist)
-    print("Function is running. Answer is:")
+def mean2(value):
+    if type(value) == dict:
+        the_mean = sum(value.values()) / len(value)
+    else:
+        the_mean = sum(value) / len(value)
     return the_mean
-    print("Function has run! This will not run.")
 
 
-print(mean([1, 4, 6]))
-print(type(mean), type(sum))
+print(names_grades)
+print(monday_temperatures)
+print(mean2(monday_temperatures))
+print(type(mean2), type(sum))
