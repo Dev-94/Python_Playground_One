@@ -71,3 +71,7 @@ if 3 > 1:
 
 print('aa')
 print('aaa')
+
+
+def foo():
+    pass
