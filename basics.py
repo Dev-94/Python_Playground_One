@@ -49,6 +49,8 @@ monday_temperatures = [8.8, 9.1, 9.9]
 
 print(monday_temperatures)
 
+print("printing mean2 below")
+
 
 def mean2(value):
     if type(value) == dict:
@@ -62,3 +64,10 @@ print(names_grades)
 print(monday_temperatures)
 print(mean2(monday_temperatures))
 print(type(mean2), type(sum))
+
+
+if 3 > 1:
+    print('a')
+
+print('aa')
+print('aaa')
